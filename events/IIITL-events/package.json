@@ -1,0 +1,54 @@
+{
+  "name": "iiitl-events",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "npm": "8.11.0",
+    "node": "16.16.0"
+  },
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^12",
+    "@testing-library/user-event": "^14.4.3",
+    "axios": "^1.2.0",
+    "firebase": "^9.20.0",
+    "framer-motion": "^5",
+    "react": "^17",
+    "react-dom": "^17",
+    "react-google-login": "^5.2.2",
+    "react-hook-form": "^7.39.5",
+    "react-router-dom": "^6.4.3",
+    "react-scripts": "^2.1.3",
+    "react-simple-chatbot": "^0.5",
+    "react-toastify": "^9.1.2",
+    "styled-components": "^4",
+    "web-vitals": "^3.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "echo No tests to run && exit 1",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.1"
+  }
+}

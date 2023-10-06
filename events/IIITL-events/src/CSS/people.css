@@ -1,0 +1,48 @@
+.people {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: linear-gradient(#141e30, #243b55);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #fff;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(105, 104, 104);
+}
+.people p {
+  font-size: 25px;
+  font-family: sans-serif;
+  margin: 15px;
+
+}
+.people p:hover {
+  color: #03e9f4;
+  cursor: pointer;
+}
+
+.people input{
+  background-color: #243b55;
+  border: 0px;
+  padding:10px;
+  border-radius: 20px;
+  margin: 5px;
+  color: #03e9f4;
+}
+.error{
+  color: red;
+  font-size: 25px;
+}
+.people label{
+  font-size: 10px;
+  color: #00BCD4;
+}
